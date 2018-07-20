@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<gconf>
+	<dir name="schemas">
+		<dir name="apps">
+			<dir name="gnome-alsamixer">
+				<dir name="geometry">
+					<entry name="mixer_slider_toggle_style" mtime="1531094901" type="schema" stype="bool" owner="gnome-alsamixer">
+						<local_schema locale="C" short_desc="">
+							<default type="bool" value="true"/>
+						</local_schema>
+					</entry>
+					<entry name="mixer_slider_style" mtime="1531094901" type="schema" stype="bool" owner="gnome-alsamixer">
+						<local_schema locale="C" short_desc="">
+							<default type="bool" value="false"/>
+						</local_schema>
+					</entry>
+					<entry name="main_window_height" mtime="1531094901" type="schema" stype="int" owner="gnome-alsamixer">
+						<local_schema locale="C" short_desc="">
+							<default type="int" value="380"/>
+						</local_schema>
+					</entry>
+					<entry name="main_window_width" mtime="1531094901" type="schema" stype="int" owner="gnome-alsamixer">
+						<local_schema locale="C" short_desc="">
+							<default type="int" value="600"/>
+						</local_schema>
+					</entry>
+				</dir>
+			</dir>
+		</dir>
+	</dir>
+	<dir name="apps">
+		<dir name="gnome-alsamixer">
+			<dir name="geometry">
+				<entry name="mixer_slider_toggle_style" mtime="1531094901" schema="/schemas/apps/gnome-alsamixer/geometry/mixer_slider_toggle_style"/>
+				<entry name="mixer_slider_style" mtime="1531094901" schema="/schemas/apps/gnome-alsamixer/geometry/mixer_slider_style"/>
+				<entry name="main_window_height" mtime="1531094901" schema="/schemas/apps/gnome-alsamixer/geometry/main_window_height"/>
+				<entry name="main_window_width" mtime="1531094901" schema="/schemas/apps/gnome-alsamixer/geometry/main_window_width"/>
+			</dir>
+		</dir>
+	</dir>
+</gconf>

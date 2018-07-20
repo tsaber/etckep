@@ -1,0 +1,23 @@
+root:x:0:0::/root:/usr/bin/fish
+nobody:x:65534:65534:Nobody:/:/sbin/nologin
+dbus:x:81:81:System Message Bus:/:/sbin/nologin
+bin:x:1:1::/:/sbin/nologin
+daemon:x:2:2::/:/sbin/nologin
+mail:x:8:12::/var/spool/mail:/sbin/nologin
+ftp:x:14:11::/srv/ftp:/sbin/nologin
+http:x:33:33::/srv/http:/sbin/nologin
+systemd-journal-remote:x:982:982:systemd Journal Remote:/:/sbin/nologin
+systemd-coredump:x:981:981:systemd Core Dumper:/:/sbin/nologin
+uuidd:x:68:68::/:/sbin/nologin
+avahi:x:980:980:Avahi mDNS/DNS-SD daemon:/:/sbin/nologin
+colord:x:979:979:Color management daemon:/var/lib/colord:/sbin/nologin
+dnsmasq:x:978:978:dnsmasq daemon:/:/sbin/nologin
+git:x:977:977:git daemon user:/:/usr/bin/git-shell
+nm-openconnect:x:976:976:NetworkManager OpenConnect:/:/sbin/nologin
+nm-openvpn:x:975:975:NetworkManager OpenVPN:/:/sbin/nologin
+partimag:x:110:110:Partimage user:/:/sbin/nologin
+polkitd:x:102:102:PolicyKit daemon:/:/sbin/nologin
+rpc:x:32:32:Rpcbind Daemon:/var/lib/rpcbind:/sbin/nologin
+rtkit:x:133:133:RealtimeKit:/proc:/sbin/nologin
+zava:x:1000:1000::/home/zava:/bin/bash
+mopidy:x:46:46:Mopidy User:/var/lib/mopidy:/sbin/nologin

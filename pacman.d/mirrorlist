@@ -1,0 +1,54 @@
+##
+## Manjaro Linux custom mirrorlist
+## Generated on 2018-07-20 08:23
+##
+## Please use 'pacman-mirrors -id' to reset custom mirrorlist
+## Please use 'pacman-mirrors -c all' to reset custom mirrorlist
+## To remove custom config run  'pacman-mirrors -c all'
+##
+
+## Country : Germany
+Server = https://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : Germany
+Server = https://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : Germany
+Server = http://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : Germany
+Server = http://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : Germany
+Server = https://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : Germany
+Server = https://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : Germany
+Server = http://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : Germany
+Server = http://manjaro.moson.eu/unstable/$repo/$arch
+
+## Country : United_Kingdom
+Server = http://manjaro.mirrors.uk2.net/unstable/$repo/$arch
+
+## Country : Germany
+Server = https://mirror.philpot.de/manjaro/unstable/$repo/$arch
+
+## Country : Germany
+Server = http://mirror.philpot.de/manjaro/unstable/$repo/$arch
+
+## Country : Germany
+Server = http://mirror.ragenetwork.de/manjaro/unstable/$repo/$arch
+
+## Country : Hungary
+Server = https://quantum-mirror.hu/mirrors/pub/manjaro/unstable/$repo/$arch
+
+## Country : Portugal
+Server = http://manjaro.barata.pt/unstable/$repo/$arch
+
+## Country : Denmark
+Server = https://www.uex.dk/public/manjaro/unstable/$repo/$arch
+

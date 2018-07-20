@@ -1,0 +1,9 @@
+# /dev/sda2 UUID=4dabd62d-fc83-47ad-b417-7f8d41f95bec
+PARTUUID=f025c78c-af6e-4ed4-b2ce-e8a2c1487249	/         	ext4      	rw,noatime,data=ordered	0 0
+
+# /dev/sda1 UUID=8532-C360
+PARTUUID=ddf842d2-1214-4b7c-ba1c-00aa947b2658	/boot/efi 	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 0
+
+# /dev/sda3 UUID=6af57b69-993c-4268-a283-c97a77901f7a
+PARTUUID=0eb3bcd7-49a4-4a2f-be1c-f514b0b298f2	none      	swap      	defaults,pri=-2	0 0
+
