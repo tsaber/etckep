@@ -26,7 +26,8 @@ fi
 # Termcap is outdated, old, and crusty, kill it.
 unset TERMCAP
 
+tmux new -s derp
 # Man is much better than us at figuring this out
 unset MANPATH
-export BROWSER="qutebrowser; or firefox"
+export BROWSER="qutebrowser"
 export PANEL_FIFO="/tmp/panel-fifo"
