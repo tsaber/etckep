@@ -1,0 +1,7 @@
+[Defaults]
+ConfigVersion=4
+GlobalPrefix=/usr/lib/fpc/../../
+LocalPrefix={LocalRepository}
+Compiler=/usr/lib/fpc/../../bin/fpc
+OS=Linux
+CPU=x86_64

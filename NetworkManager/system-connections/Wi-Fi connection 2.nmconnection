@@ -1,0 +1,24 @@
+[connection]
+id=Wi-Fi connection 2
+uuid=4870961b-d78b-4757-a25b-9338ef3222a6
+type=wifi
+permissions=
+
+[wifi]
+mac-address-blacklist=
+mode=infrastructure
+ssid=Casa Sasa
+
+[wifi-security]
+key-mgmt=wpa-psk
+psk=xfy2uoxfy2uo
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+ip6-privacy=0
+method=auto

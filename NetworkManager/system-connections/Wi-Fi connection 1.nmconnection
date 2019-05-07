@@ -1,0 +1,24 @@
+[connection]
+id=Wi-Fi connection 1
+uuid=a255480c-0484-4c7e-87af-db96f2fcb09a
+type=wifi
+permissions=
+
+[wifi]
+mac-address-blacklist=
+mode=infrastructure
+ssid=FRITZ!Box neu
+
+[wifi-security]
+key-mgmt=wpa-psk
+psk=#volkswagen#golf#touran#bmw#
+
+[ipv4]
+dns-search=
+method=auto
+
+[ipv6]
+addr-gen-mode=stable-privacy
+dns-search=
+ip6-privacy=0
+method=auto
