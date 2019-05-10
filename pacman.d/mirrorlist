@@ -1,6 +1,6 @@
 ##
 ## Manjaro Linux custom mirrorlist
-## Generated on 2019-05-02 17:51
+## Generated on 2019-05-09 17:55
 ##
 ## Please use 'pacman-mirrors -id' To reset custom mirrorlist
 ## Please use 'pacman-mirrors -c all' To reset custom mirrorlist
@@ -14,16 +14,19 @@ Server = https://mirror.23media.com/manjaro/stable/$repo/$arch
 Server = https://mirror.philpot.de/manjaro/stable/$repo/$arch
 
 ## Country : Germany
-Server = http://mirror.ragenetwork.de/manjaro/stable/$repo/$arch
+Server = https://manjaro.moson.eu/stable/$repo/$arch
 
 ## Country : Germany
-Server = https://manjaro.moson.eu/stable/$repo/$arch
+Server = https://mirror.netcologne.de/manjaro/stable/$repo/$arch
 
 ## Country : Germany
 Server = https://mirror.alpix.eu/manjaro/stable/$repo/$arch
 
 ## Country : Germany
 Server = https://mirror.netzspielplatz.de/manjaro/packages/stable/$repo/$arch
+
+## Country : Germany
+Server = http://ftp.tu-chemnitz.de/pub/linux/manjaro/stable/$repo/$arch
 
 ## Country : Germany
 Server = https://ftp.halifax.rwth-aachen.de/manjaro/stable/$repo/$arch
