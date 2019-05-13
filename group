@@ -67,3 +67,4 @@ vboxsf:x:109:
 stunnel:x:16:
 spamd:x:182:
 geoclue:x:967:
+adbusers:x:966:

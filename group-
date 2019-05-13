@@ -46,7 +46,7 @@ rpc:x:32:
 avahi:x:976:
 colord:x:975:
 cups:x:209:
-deluge:x:974:
+deluge:x:974:zava
 git:x:973:
 lightdm:x:620:
 locate:x:21:

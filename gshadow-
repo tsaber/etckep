@@ -46,7 +46,7 @@ rpc:!!::
 avahi:!!::
 colord:!!::
 cups:!!::
-deluge:!!::
+deluge:!!::zava
 git:!!::
 lightdm:!!::
 locate:!!::
