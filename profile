@@ -4,21 +4,21 @@
 umask 022
 
 # Append our default paths
-appendpath () {
-    case ":$PATH:" in
-        *:"$1":*)
-            ;;
-        *)
-            PATH="${PATH:+$PATH:}$1"
-    esac
-}
-
-appendpath '/usr/local/sbin'
-appendpath '/usr/local/bin'
-appendpath '/usr/bin'
-unset appendpath
-
-export PATH
+#appendpath () {
+#    case ":$PATH:" in
+#        *:"$1":*)
+#            ;;
+#        *)
+#            PATH="${PATH:+$PATH:}$1"
+#    esac
+#}
+#
+#appendpath '/usr/local/sbin'
+#appendpath '/usr/local/bin'
+#appendpath '/usr/bin'
+#unset appendpath
+#
+#export PATH
 
 # Load profiles from /etc/profile.d
 if test -d /etc/profile.d/; then
