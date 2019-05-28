@@ -2,7 +2,7 @@ GRUB_DEFAULT=saved
 GRUB_TIMEOUT=5
 GRUB_TIMEOUT_STYLE=menu
 GRUB_DISTRIBUTOR='Manjaro'
-GRUB_CMDLINE_LINUX_DEFAULT="quiet cryptdevice=UUID=a7f94940-432d-4465-a213-b703bd611c8d:luks-a7f94940-432d-4465-a213-b703bd611c8d root=/dev/mapper/luks-a7f94940-432d-4465-a213-b703bd611c8d resume=/dev/mapper/luks-a7f94940-432d-4465-a213-b703bd611c8d"
+GRUB_CMDLINE_LINUX_DEFAULT="cryptdevice=UUID=a7f94940-432d-4465-a213-b703bd611c8d:luks-a7f94940-432d-4465-a213-b703bd611c8d root=/dev/mapper/luks-a7f94940-432d-4465-a213-b703bd611c8d resume=/dev/mapper/luks-a7f94940-432d-4465-a213-b703bd611c8d"
 GRUB_CMDLINE_LINUX="scsi_mod.use_blk_mq=1"
 
 # If you want to enable the save default function, uncomment the following
